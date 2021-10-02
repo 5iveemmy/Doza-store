@@ -1,5 +1,5 @@
 :root {
-  --small-links-color: #e1e1e1;
+  --small-links-color: #b8b8b8;
 }
 
 body {
@@ -33,7 +33,7 @@ ul.help {
 
 .small-nav li {
   text-decoration: none;
-  border-left: 1px solid;
+  border-left: 0.1px solid;
   padding: 11px 32px 0px 35px;
 }
 
@@ -81,4 +81,20 @@ ul.pages-links {
 a.icons {
   margin: 18px;
   font-size: 28px;
+}
+
+/* for smallBox */
+.spring {
+  width: 25.2rem;
+  border: 1px solid #e3e3e3;
+  margin-left: auto;
+  margin-right: auto;
+}
+.spring img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.card {
+  display: flex;
+  padding: 2rem 1rem;
 }
