@@ -62,7 +62,7 @@ ul.pages-links {
   display: flex;
   justify-content: space-around;
   width: 60%;
-  margin: 0px;
+  padding-left: 2rem;
   list-style-type: none;
 }
 
@@ -81,20 +81,4 @@ ul.pages-links {
 a.icons {
   margin: 18px;
   font-size: 28px;
-}
-
-/* for smallBox */
-.spring {
-  width: 25.2rem;
-  border: 1px solid #e3e3e3;
-  margin-left: auto;
-  margin-right: auto;
-}
-.spring img {
-  max-width: 100%;
-  vertical-align: middle;
-}
-.card {
-  display: flex;
-  padding: 2rem 1rem;
 }

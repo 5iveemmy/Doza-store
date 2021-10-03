@@ -1,14 +1,19 @@
 import React from "react";
-import banner01 from "../images/banner-01.jpg";
+import { Link } from "react-router-dom";
 
-function SmallBox() {
+function SmallBox({ src, title, season, shop }) {
   return (
-    <div className="container">
-      <div className="card legit">
-        <div className="spring">
-          <img src={banner01} alt="Just-img" />
+    <div className="spring">
+      <img src={src} alt="Just-img" />
+      <Link className="spring-link">
+        <div className="spring-text">
+          <span className="title">{title}</span>
+          <span className="season">{season}</span>
         </div>
-      </div>
+        <div className="shop">
+          <div className="shop-text">Shop Now</div>
+        </div>
+      </Link>
     </div>
   );
 }
