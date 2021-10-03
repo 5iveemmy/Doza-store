@@ -1,7 +1,11 @@
+:root {
+  --text-color: #888;
+}
+
 /* for smallBox */
 .card {
   display: flex;
-  padding: 2rem 0rem;
+  padding: 3rem 1rem;
   flex-wrap: wrap;
 }
 
@@ -70,4 +74,69 @@
   color: #7b7b7b;
   font-size: 14px;
   line-height: 30px;
+}
+
+/* For midBox*/
+.product {
+  padding: 23px 27px;
+}
+
+.product h1 {
+  line-height: 5rem;
+  letter-spacing: 6px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  background-color: white;
+  font-size: 15px;
+  color: var(--text-color);
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.all-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter,
+.second-search {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #e6e6e6;
+  font-size: 14px;
+  color: #343434;
+  margin-left: 14px;
+}
+
+.filter:hover,
+.second-search:hover {
+  background-color: #717fe0;
+  color: white;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+
+.filter:hover .fitert,
+.second-search:hover .searcht {
+  color: white;
+  transition: ease-in-out 0.5s;
+}
+
+.fitert,
+.searcht {
+  color: var(--text-color);
+  font-size: 15px;
 }
