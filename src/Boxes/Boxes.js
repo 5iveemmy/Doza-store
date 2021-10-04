@@ -14,12 +14,12 @@ import product07 from "../images/product-07.jpg";
 import product08 from "../images/product-08.jpg";
 import product09 from "../images/product-09.jpg";
 import product10 from "../images/product-10.jpg";
-// import product11 from "../images/product-11.jpg";
-// import product12 from "../images/product-12.jpg";
-// import product13 from "../images/product-13.jpg";
-// import product14 from "../images/product-14.jpg";
-// import product15 from "../images/product-15.jpg";
-// import product16 from "../images/product-16.jpg";
+import product11 from "../images/product-11.jpg";
+import product12 from "../images/product-12.jpg";
+import product13 from "../images/product-13.jpg";
+import product14 from "../images/product-14.jpg";
+import product15 from "../images/product-15.jpg";
+import product16 from "../images/product-16.jpg";
 import MidBox from "./MidBox";
 
 function Boxes() {
@@ -95,6 +95,16 @@ function Boxes() {
             <MidBox src={product08} type="T-Shirt with Sleeve" price="$18.49" />
             <MidBox src={product09} type="Pretty Little Thing" price="$54.79" />
             <MidBox src={product10} type="Square Neck Back" price="$28.64" />
+            <MidBox src={product11} type="Heschel supply" price="$63.15" />
+            <MidBox src={product12} type="Heschel supply" price="$18.49" />
+            <MidBox src={product13} type="T-Shirt with Sleeve" price="$54.79" />
+            <MidBox src={product14} type="Pretty Little Thing" price="$88.65" />
+            <MidBox
+              src={product15}
+              type="Mini Silver Mesh Watch"
+              price="$29.64"
+            />
+            <MidBox src={product16} type="Square Neck Back" price="$29.64" />
           </div>
         </div>
         <div className="load">

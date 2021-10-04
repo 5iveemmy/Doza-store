@@ -5,6 +5,7 @@ import "./App.css";
 import Boxes from "./Boxes/Boxes";
 import ImageSlider from "./components/ImageSlider";
 import { SliderData } from "./components/SliderData";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <ImageSlider slides={SliderData} />
         <Boxes />
+        <Footer />
       </Route>
     </>
   );

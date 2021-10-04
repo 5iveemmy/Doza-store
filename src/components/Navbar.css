@@ -57,7 +57,7 @@ nav.big-nav {
 
 .big-nav.active {
   background: #ffffff;
-  transition: 0.5s;
+  transition: 0.4s;
   margin-top: -40px;
 }
 

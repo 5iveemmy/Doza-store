@@ -1,0 +1,96 @@
+:root {
+  --li-text-color: #8d8d8d;
+  --btn-color: #717fe0;
+}
+
+.footer {
+  background-color: #222222;
+}
+.row {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-wrapper {
+  padding: 75px 10px 32px;
+}
+
+.row ul {
+  list-style: none;
+}
+
+.row li {
+  padding-bottom: 10px;
+  color: var(--li-text-color);
+}
+
+.row h4 {
+  padding-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+.touch {
+  width: 25%;
+}
+
+.touch p {
+  color: var(--li-text-color);
+}
+
+.categories,
+.hlep,
+.touch,
+.newsletter {
+  padding: 0px 15px 50px;
+  flex: 0 25%;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="email"] {
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+  color: var(--li-text-color);
+  outline: none;
+}
+
+.for-sub {
+  padding-top: 25px;
+}
+.sub {
+  padding: 15px 14px;
+  border-radius: 20px;
+  width: 55%;
+  border: none;
+  background-color: var(--btn-color);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.sub:hover {
+  background-color: white;
+  color: var(--btn-color);
+  transition: ease-in-out 0.4s;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+  width: 24%;
+  font-size: 20px;
+}
+.social-icon-link {
+  color: var(--li-text-color);
+}
+
+.social-icon-link:hover {
+  color: var(--btn-color);
+  transition: ease-in-out 0.4s;
+}
