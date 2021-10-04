@@ -24,9 +24,9 @@
 }
 
 .spring-link {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
   position: absolute;
   left: 0px;
   top: 0px;
@@ -78,17 +78,19 @@
 
 /* For midBox*/
 .product {
-  padding: 23px 27px;
+  padding: 23px 0px 140px 0px;
 }
 
 .product h1 {
   line-height: 5rem;
   letter-spacing: 6px;
+  padding-left: 27px;
 }
 
 .section {
   display: flex;
   justify-content: space-between;
+  padding: 0px 25px;
 }
 
 .btn {
@@ -139,4 +141,101 @@
 .searcht {
   color: var(--text-color);
   font-size: 15px;
+}
+
+/* Products*/
+
+.for-product {
+  width: 100%;
+  vertical-align: middle;
+  transition: ease-in-out 0.5s;
+}
+
+.pictures-wrap {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.picture {
+  padding: 20px 15px;
+  margin: auto;
+  width: 20rem;
+  text-decoration: none;
+}
+
+.product-img {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-img:hover .quick {
+  transform: scaleY(1);
+}
+
+.product-img:hover .for-product {
+  transform: scale(1.1);
+}
+
+.quick {
+  position: absolute;
+  text-decoration: none;
+  top: 16rem;
+  left: 4.5rem;
+  bottom: -65px;
+  transform: scaleY(0);
+  color: white;
+  transition: transform 0.3s;
+}
+.quick-btn {
+  background-color: white;
+  color: black;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 20px;
+}
+
+.quick-btn:hover {
+  background-color: black;
+  color: white;
+  transition: ease-in-out 0.5s;
+}
+
+.picture-text {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.picture-left {
+  display: flex;
+  flex-direction: column;
+}
+.espirit {
+  text-decoration: none;
+  color: #999999;
+}
+.love {
+  color: #999999;
+}
+.price {
+  color: var(--text-color);
+  line-height: 38px;
+}
+.load {
+  text-align: center;
+}
+.load-btn {
+  background-color: #e6e6e6;
+  color: black;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 20px;
+}
+
+.load-btn:hover {
+  background-color: black;
+  color: white;
+  transition: ease-in-out 0.5s;
 }
