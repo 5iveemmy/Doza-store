@@ -22,7 +22,7 @@ import product15 from "../images/product-15.jpg";
 import product16 from "../images/product-16.jpg";
 import MidBox from "./MidBox";
 import { Link } from "react-router-dom";
-import { BsCircle, BsFillCircleFill } from "react-icons/bs";
+import { BsCircle, BsFillCircleFill, BiSearch } from "react-icons/all";
 
 function Boxes() {
   const [click, setClick] = useState(false);
@@ -69,8 +69,6 @@ function Boxes() {
             </button>
           </div>
         </section>
-        {/* ={click ?
-        : "#first-box"} */}
         <div className={click ? "first-box" : "display"}>
           <div className="first-box-wrap">
             <div className="sort">
@@ -171,6 +169,13 @@ function Boxes() {
               </div>
             </div>
           </div>
+        </div>
+        <div className={sand ? "search-box" : "display"}>
+          <button className="search-btn">
+            {" "}
+            <BiSearch />{" "}
+          </button>
+          <input type="text" placeholder="Search" className="search-input" />
         </div>
         <div className="pictures">
           <div className="pictures-wrap">

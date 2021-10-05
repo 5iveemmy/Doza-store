@@ -90,3 +90,32 @@ a.icons {
   margin: 18px;
   font-size: 28px;
 }
+
+.home-drop {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: 16rem;
+  padding: 30px 10px;
+  z-index: 1;
+  /* margin-left: -2rem; */
+}
+
+.home-drop .drop {
+  color: var(--small-links-color);
+  padding: 12px 30px;
+  text-decoration: none;
+  display: block;
+}
+
+.home-drop .drop:hover {
+  background-color: black;
+}
+/* .big-drop {
+  position: relative;
+  display: inline-block;
+} */
+
+.big-drop:hover .home-drop {
+  display: block;
+}

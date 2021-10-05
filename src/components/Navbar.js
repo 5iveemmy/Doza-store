@@ -44,7 +44,20 @@ function Navbar() {
             </h1>
             <ul className="pages-links">
               <li>
-                <Link className="big-links">Home</Link>
+                <div className="big-drop">
+                  <Link className="big-links">Home</Link>
+                  <div className="home-drop">
+                    <Link className="drop" to="/">
+                      Homepage 1
+                    </Link>
+                    <Link className="drop" to="/">
+                      Homepage 1
+                    </Link>
+                    <Link className="drop" to="/">
+                      Homepage 1
+                    </Link>
+                  </div>
+                </div>
               </li>
               <li>
                 <Link className="big-links">Shop</Link>

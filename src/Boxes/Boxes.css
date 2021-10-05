@@ -91,7 +91,7 @@
 .section {
   display: flex;
   justify-content: space-between;
-  padding: 0px 25px;
+  padding: 0px 33px 0px 23px;
 }
 
 /* block diplay */
@@ -166,6 +166,29 @@
   color: var(--text-color);
   border: 1px solid #a5a5a5;
   margin: 4px 3px 2px 0px;
+}
+
+/*for search */
+.search-box {
+  padding: 10px 34px;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 20px 31px;
+  font-size: 18px;
+  border: 1px #d5d9dc solid;
+}
+
+.search-btn {
+  position: absolute;
+  border: none;
+  top: 34px;
+  left: 50px;
+  color: #757575;
+  font-size: 16px;
+  background-color: transparent;
 }
 
 .first-box-wrap a {
