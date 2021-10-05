@@ -79,6 +79,7 @@
 /* For midBox*/
 .product {
   padding: 23px 0px 140px 0px;
+  position: relative;
 }
 
 .product h1 {
@@ -91,6 +92,88 @@
   display: flex;
   justify-content: space-between;
   padding: 0px 25px;
+}
+
+/* block diplay */
+
+.first-box {
+  padding: 10px 26px;
+  /* transform: scaleY(0); */
+  visibility: visible;
+}
+.display {
+  /* display: block; */
+  padding: 10px 26px;
+  /* transform: scaleY(1); */
+  display: none;
+}
+
+.first-box-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #edebeb;
+  padding: 27px 40px 0px;
+}
+.sort,
+.money,
+.color {
+  flex: 0 1 25%;
+  padding: 0px 15px 25px 0px;
+}
+
+.tags {
+  flex: 0 1 20%;
+}
+
+.first-box-wrap h3 {
+  padding-bottom: 15px;
+  color: #343434;
+}
+
+.sort ul,
+.money ul,
+.color ul {
+  list-style-type: none;
+}
+
+.circle {
+  padding-right: 6px;
+}
+
+.blue {
+  color: blue;
+}
+.grey {
+  color: var(--text-color);
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.white {
+  color: var(--text-color);
+}
+
+.tags-buttons button {
+  padding: 9px 16px;
+  border-radius: 20px;
+  color: var(--text-color);
+  border: 1px solid #a5a5a5;
+  margin: 4px 3px 2px 0px;
+}
+
+.first-box-wrap a {
+  color: var(--text-color);
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
 .btn {

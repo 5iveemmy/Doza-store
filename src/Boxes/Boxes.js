@@ -21,6 +21,8 @@ import product14 from "../images/product-14.jpg";
 import product15 from "../images/product-15.jpg";
 import product16 from "../images/product-16.jpg";
 import MidBox from "./MidBox";
+import { Link } from "react-router-dom";
+import { BsCircle, BsFillCircleFill } from "react-icons/bs";
 
 function Boxes() {
   const [click, setClick] = useState(false);
@@ -67,6 +69,109 @@ function Boxes() {
             </button>
           </div>
         </section>
+        {/* ={click ?
+        : "#first-box"} */}
+        <div className={click ? "first-box" : "display"}>
+          <div className="first-box-wrap">
+            <div className="sort">
+              <h3>Sort By</h3>
+              <ul>
+                <li>
+                  <Link className>Default</Link>
+                </li>
+                <li>
+                  <Link>Popularity</Link>
+                </li>
+                <li>
+                  <Link>Average rating</Link>
+                </li>
+                <li>
+                  <Link>Newness</Link>
+                </li>
+                <li>
+                  <Link>Price: Low to High</Link>
+                </li>
+                <li>
+                  <Link>Price: High to low</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="money">
+              <h3>Price</h3>
+              <ul>
+                <li>
+                  <Link>All</Link>
+                </li>
+                <li>
+                  <Link>$0.00 - $50.00</Link>
+                </li>
+                <li>
+                  <Link>$50.00 - $100.00</Link>
+                </li>
+                <li>
+                  <Link>$100.00 - $100.00</Link>
+                </li>
+                <li>
+                  <Link>$150.00 - $200.00</Link>
+                </li>
+                <li>
+                  <Link>$200.00+ </Link>
+                </li>
+              </ul>
+            </div>
+            <div className="color">
+              <h3>Color</h3>
+              <ul>
+                <li>
+                  <span className="circle black">
+                    <BsFillCircleFill />
+                  </span>
+                  <Link>Black</Link>
+                </li>
+                <li>
+                  <span className="circle blue">
+                    <BsFillCircleFill />
+                  </span>
+                  <Link>Blue</Link>
+                </li>
+                <li>
+                  <span className="circle grey">
+                    <BsFillCircleFill />
+                  </span>
+                  <Link>Grey</Link>
+                </li>
+                <li>
+                  <span className="circle green">
+                    <BsFillCircleFill />
+                  </span>
+                  <Link>Green</Link>
+                </li>
+                <li>
+                  <span className="circle red">
+                    <BsFillCircleFill />
+                  </span>
+                  <Link>Red</Link>
+                </li>
+                <li>
+                  <span className="circle white">
+                    <BsCircle />
+                  </span>
+                  <Link>White</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="tags">
+              <h3>Tags</h3>
+              <div className="tags-buttons">
+                <button className="fashion">Fashion</button>
+                <button className="lifestyle">Lifestyle</button>
+                <button className="denim">Denim</button>
+                <button className="street">Streetstyle</button>
+                <button className="craft">Crafts</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="pictures">
           <div className="pictures-wrap">
             <MidBox src={product01} type="Esprit Ruffle Shirt" price="$16.64" />

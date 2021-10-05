@@ -74,6 +74,9 @@ function Footer() {
             </form>
           </div>
         </div>
+        {/* <div className="bottom">
+                  <Link></Link>
+              </div> */}
       </div>
     </footer>
   );
