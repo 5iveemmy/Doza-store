@@ -91,30 +91,34 @@ a.icons {
   font-size: 28px;
 }
 
+.big-drop {
+  position: relative;
+  display: block;
+}
+
 .home-drop {
   display: none;
   position: absolute;
   background-color: white;
-  width: 16rem;
-  padding: 30px 10px;
+  width: 10rem;
   z-index: 1;
-  /* margin-left: -2rem; */
+  top: 100%;
 }
 
-.home-drop .drop {
-  color: var(--small-links-color);
-  padding: 12px 30px;
+.home-drop > li {
+  list-style: none;
+  padding: 11px;
   text-decoration: none;
   display: block;
 }
 
-.home-drop .drop:hover {
-  background-color: black;
+.home-drop .drop {
+  color: var(--small-links-color);
 }
-/* .big-drop {
-  position: relative;
-  display: inline-block;
-} */
+
+.home-drop .drop:hover {
+  color: var(--btn-color);
+}
 
 .big-drop:hover .home-drop {
   display: block;

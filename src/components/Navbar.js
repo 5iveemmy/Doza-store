@@ -43,21 +43,25 @@ function Navbar() {
               DOZA <span>STORE</span>
             </h1>
             <ul className="pages-links">
-              <li>
-                <div className="big-drop">
-                  <Link className="big-links">Home</Link>
-                  <div className="home-drop">
+              <li className="big-drop">
+                <Link className="big-links">Home</Link>
+                <ul className="home-drop">
+                  <li>
                     <Link className="drop" to="/">
                       Homepage 1
                     </Link>
+                  </li>
+                  <li>
                     <Link className="drop" to="/">
                       Homepage 1
                     </Link>
+                  </li>
+                  <li>
                     <Link className="drop" to="/">
                       Homepage 1
                     </Link>
-                  </div>
-                </div>
+                  </li>
+                </ul>
               </li>
               <li>
                 <Link className="big-links">Shop</Link>
