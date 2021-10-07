@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react/cjs/react.development";
 import { SliderData } from "./SliderData";
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import { TiMediaPlay, TiMediaPlayReverse } from "react-icons/all";
 import "./ImageSlider.css";
 
 const ImageSlider = ({ slides }) => {
@@ -24,8 +24,8 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <section className="slider">
-      <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
-      <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
+      <TiMediaPlayReverse className="left-arrow" onClick={prevSlide} />
+      <TiMediaPlay className="right-arrow" onClick={nextSlide} />
 
       {SliderData.map((slide, index) => {
         return (

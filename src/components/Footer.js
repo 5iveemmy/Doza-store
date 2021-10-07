@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
+import icon01 from "../images/icons/icon-pay-01.png";
+import icon02 from "../images/icons/icon-pay-02.png";
+import icon03 from "../images/icons/icon-pay-03.png";
+import icon04 from "../images/icons/icon-pay-04.png";
+import icon05 from "../images/icons/icon-pay-05.png";
 
 function Footer() {
   return (
@@ -74,9 +79,31 @@ function Footer() {
             </form>
           </div>
         </div>
-        {/* <div className="bottom">
-                  <Link></Link>
-              </div> */}
+        <div className="bottom">
+          <div className="pay-cards">
+            <Link to="/#">
+              {" "}
+              <img src={icon01} alt="icon-pay" />
+            </Link>
+            <Link to="/#">
+              {" "}
+              <img src={icon02} alt="icon-pay" />
+            </Link>
+            <Link to="/#">
+              {" "}
+              <img src={icon03} alt="icon-pay" />
+            </Link>
+            <Link to="/#">
+              {" "}
+              <img src={icon04} alt="icon-pay" />
+            </Link>
+            <Link to="/#">
+              {" "}
+              <img src={icon05} alt="icon-pay" />
+            </Link>
+          </div>
+          <p>Copyright @2021 All rights reserved | Made by 5iveemmy</p>
+        </div>
       </div>
     </footer>
   );

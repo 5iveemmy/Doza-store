@@ -134,7 +134,7 @@ a.icons {
 .shopping-icons {
   display: flex;
   justify-content: space-between;
-  width: 20%;
+  width: 10%;
 }
 
 @media only screen and (max-width: 992px) {
@@ -147,6 +147,10 @@ a.icons {
   .big-nav {
     position: absolute !important;
     background-color: white;
+  }
+
+  .shopping-icons {
+    width: 20%;
   }
 
   .menu-icon {

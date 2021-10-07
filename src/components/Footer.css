@@ -94,3 +94,16 @@ input[type="email"] {
   color: var(--btn-color);
   transition: ease-in-out 0.4s;
 }
+
+.bottom {
+  text-align: center;
+  padding: 5rem 0px 0px;
+}
+
+.pay-cards {
+  padding-bottom: 25px;
+}
+
+.bottom p {
+  color: var(--li-text-color);
+}
