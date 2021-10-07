@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { BsHeart, MdSearch, IoMdCart } from "react-icons/all";
 import "./Navbar.css";
+
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
   const [click, setClick] = useState(false);
@@ -47,7 +48,7 @@ function Navbar() {
             <h1>
               DOZA <span>STORE</span>
             </h1>
-            <ul className="pages-links">
+            <ul className={click ? "pages-links active" : "pages-links"}>
               <li className="big-drop">
                 <Link className="big-links" to="/">
                   {" "}
@@ -106,7 +107,7 @@ function Navbar() {
             <Link className="icons">
               <IoMdCart />
             </Link>
-            <Link className="icons">
+            <Link className="icons ">
               <BsHeart />
             </Link>
             <div className="menu-icon" onClick={handleClick}>
