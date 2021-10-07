@@ -54,7 +54,6 @@ nav.big-nav {
   width: 100%;
   z-index: 1100;
 }
-
 .big-nav.active {
   background: #ffffff;
   transition: 0.4s;
@@ -87,7 +86,6 @@ ul.pages-links {
   text-decoration: none;
 }
 a.icons {
-  margin: 18px;
   font-size: 28px;
 }
 
@@ -113,13 +111,61 @@ a.icons {
 }
 
 .home-drop .drop {
-  color: var(--small-links-color);
+  color: rgb(133, 133, 133);
+  letter-spacing: 1px;
+}
+.big-links:hover {
+  color: var(--btn-color);
 }
 
+.big-links:active,
 .home-drop .drop:hover {
   color: var(--btn-color);
 }
 
 .big-drop:hover .home-drop {
   display: block;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.shopping-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+@media only screen and (max-width: 992px) {
+  .small-nav {
+    display: none;
+  }
+  .big-nav.active {
+    margin-top: 0px;
+  }
+  .big-nav {
+    position: absolute !important;
+    background-color: white;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    writing-mode: vertical-rl;
+  }
+
+  .page-links {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -300%;
+    left: 0;
+    opacity: 1;
+    transition: all 1s ease-in-out;
+    transform-origin: center;
+  }
 }

@@ -44,3 +44,37 @@
   width: 100%;
   top: 0px;
 }
+
+.jus {
+  position: absolute;
+  left: 7.5rem;
+  color: #000;
+  bottom: 15rem;
+}
+
+.jus h1 {
+  font-size: 28px;
+  /* font-size: clamp( ); */
+  font-weight: 100;
+  line-height: 6rem;
+}
+
+.jus h2 {
+  font-size: 66px;
+  padding-bottom: 30px;
+}
+
+.jus-btn {
+  background-color: var(--btn-color);
+  padding: 20px 43px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.jus-btn:hover {
+  background-color: #000;
+  transition: ease-in-out 0.5s;
+}

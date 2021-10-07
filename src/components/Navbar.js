@@ -4,6 +4,11 @@ import { BsHeart, MdSearch, IoMdCart } from "react-icons/all";
 import "./Navbar.css";
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => {
+    setClick(!click);
+  };
 
   const changeBackground = () => {
     if (window.scrollY >= 30) {
@@ -44,7 +49,10 @@ function Navbar() {
             </h1>
             <ul className="pages-links">
               <li className="big-drop">
-                <Link className="big-links">Home</Link>
+                <Link className="big-links" to="/">
+                  {" "}
+                  Home
+                </Link>
                 <ul className="home-drop">
                   <li>
                     <Link className="drop" to="/">
@@ -64,20 +72,30 @@ function Navbar() {
                 </ul>
               </li>
               <li>
-                <Link className="big-links">Shop</Link>
+                <Link className="big-links" to="/">
+                  Shop
+                </Link>
               </li>
 
               <li>
-                <Link className="big-links">Features</Link>
+                <Link className="big-links" to="/">
+                  Features
+                </Link>
               </li>
               <li>
-                <Link className="big-links">Blog</Link>
+                <Link className="big-links" to="/">
+                  Blog
+                </Link>
               </li>
               <li>
-                <Link className="big-links">About</Link>
+                <Link className="big-links" to="/">
+                  About
+                </Link>
               </li>
               <li>
-                <Link className="big-links">Contact</Link>
+                <Link className="big-links" to="/">
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
@@ -91,6 +109,11 @@ function Navbar() {
             <Link className="icons">
               <BsHeart />
             </Link>
+            <div className="menu-icon" onClick={handleClick}>
+              <i
+                className={click ? "fas fa-times fa-sm" : "fas fa-bars fa-sm"}
+              />
+            </div>
           </div>
         </nav>
       </div>
