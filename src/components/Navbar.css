@@ -81,12 +81,13 @@ ul.pages-links {
   color: #7a7979;
 }
 
-.big-nav a {
+.big-links {
   color: #464646;
   text-decoration: none;
 }
 a.icons {
   font-size: 28px;
+  color: #464646;
 }
 
 .big-drop {
@@ -106,11 +107,11 @@ a.icons {
 .home-drop > li {
   list-style: none;
   padding: 11px;
-  text-decoration: none;
   display: block;
 }
 
 .home-drop .drop {
+  text-decoration: none;
   color: rgb(133, 133, 133);
   letter-spacing: 1px;
 }
@@ -153,6 +154,19 @@ a.icons {
     width: 20%;
   }
 
+  .jux {
+    padding: 22px 0px;
+    width: 15%;
+  }
+
+  .big-links {
+    color: white;
+  }
+
+  .big-links:hover {
+    color: white;
+  }
+
   .menu-icon {
     display: block;
     font-size: 28px;
@@ -160,10 +174,10 @@ a.icons {
     cursor: pointer;
     writing-mode: vertical-rl;
   }
-
+  /* 
   .big-drop:hover .home-drop {
     display: none;
-  }
+  } */
 
   ul.pages-links {
     flex-direction: column;
@@ -172,10 +186,12 @@ a.icons {
     position: absolute;
     top: 100%;
     left: 0;
+    color: white;
     opacity: 1;
     transition: 0.4s;
     transform-origin: top;
     transform: scaleY(0);
+    background-color: var(--btn-color);
   }
 
   ul.pages-links.active {

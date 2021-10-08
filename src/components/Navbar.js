@@ -49,7 +49,7 @@ function Navbar() {
               DOZA <span>STORE</span>
             </h1>
             <ul className={click ? "pages-links active" : "pages-links"}>
-              <li className="big-drop">
+              <li className="big-drop jux">
                 <Link className="big-links" to="/">
                   {" "}
                   Home
@@ -72,28 +72,28 @@ function Navbar() {
                   </li>
                 </ul>
               </li>
-              <li>
+              <li className="jux">
                 <Link className="big-links" to="/">
                   Shop
                 </Link>
               </li>
 
-              <li>
+              <li className="jux">
                 <Link className="big-links" to="/">
                   Features
                 </Link>
               </li>
-              <li>
+              <li className="jux">
                 <Link className="big-links" to="/">
                   Blog
                 </Link>
               </li>
-              <li>
+              <li className="jux">
                 <Link className="big-links" to="/">
                   About
                 </Link>
               </li>
-              <li>
+              <li className="jux">
                 <Link className="big-links" to="/">
                   Contact
                 </Link>

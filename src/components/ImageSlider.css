@@ -4,7 +4,7 @@
 
 .slider {
   position: relative;
-  /* height: 100vh; */
+  /* height: 120vh; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,7 +54,7 @@
   position: absolute;
   left: 7.5rem;
   color: #000;
-  bottom: 15rem;
+  bottom: 9rem;
   color: rgb(61, 61, 61);
 }
 
@@ -85,3 +85,11 @@
   background-color: #000;
   transition: ease-in-out 0.5s;
 }
+
+/* @media only screen and (max-width: 1200px) {
+  .slider {
+    top: 30px;
+    height: 88vh;
+  }
+}
+*/
