@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Boxes.css";
+import "../styles/Boxes.css";
 import SmallBox from "./SmallBox";
 import banner01 from "../images/banner-01.jpg";
 import banner02 from "../images/banner-02.jpg";

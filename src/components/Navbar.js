@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { BsHeart, MdSearch, IoMdCart } from "react-icons/all";
-import "./Navbar.css";
+import "../styles/Navbar.css";
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);

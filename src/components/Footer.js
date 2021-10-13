@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Footer.css";
+import "../styles/Footer.css";
 import icon01 from "../images/icons/icon-pay-01.png";
 import icon02 from "../images/icons/icon-pay-02.png";
 import icon03 from "../images/icons/icon-pay-03.png";

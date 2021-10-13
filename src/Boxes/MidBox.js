@@ -1,5 +1,5 @@
 import React from "react";
-import "./Boxes.css";
+import "../styles/Boxes.css";
 import { Link } from "react-router-dom";
 import { BsHeart } from "react-icons/bs";
 

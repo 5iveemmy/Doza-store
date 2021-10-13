@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react/cjs/react.development";
 import { SliderData } from "./SliderData";
 import { TiMediaPlay, TiMediaPlayReverse } from "react-icons/all";
-import "./ImageSlider.css";
+import "../styles/ImageSlider.css";
 
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
