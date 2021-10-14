@@ -28,6 +28,10 @@ body {
 
 /* FOr media queries*/
 @media screen and (max-width: 992px) {
+  .slider {
+    height: 100vh;
+  }
+
   .small-nav {
     display: none;
   }
@@ -85,14 +89,14 @@ body {
 
   ul.pages-links.active {
     display: block;
-    top: 70px;
+    top: 59px;
     z-index: 1000;
     transform: scaleY(1);
   }
 }
-
+/* 
 @media only screen and (max-width: 992px) and (min-width: 740px) {
   .slider {
     height: 100vh;
   }
-}
+} */
