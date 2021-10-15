@@ -93,10 +93,27 @@ body {
     z-index: 1000;
     transform: scaleY(1);
   }
-}
-/* 
-@media only screen and (max-width: 992px) and (min-width: 740px) {
-  .slider {
-    height: 100vh;
+  .all {
+    width: auto !important;
   }
-} */
+}
+@media screen and (max-width: 768px) {
+  .menu-icon,
+  a.icons {
+    font-size: 23px;
+  }
+  .jus-btn {
+    padding: 16px 30px;
+    font-size: 12px;
+  }
+  .left-arrow,
+  .right-arrow {
+    font-size: 3rem;
+  }
+  .categories,
+  .hlep,
+  .touch,
+  .newsletter {
+    flex: 0 1 45%;
+  }
+}
