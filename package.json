@@ -1,11 +1,14 @@
 {
   "name": "doza-store",
   "version": "0.1.0",
+  "homepage": "https://5iveemmy.github.io/Doza-store/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "gh-pages": "^3.2.3",
+    "husky": "^7.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
@@ -19,9 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prod": "echo \"Add your build command here\"",
-    "postinstall": "node ./node_modules/husky/lib/installer/bin install",
-    "deploy": "git push origin `git subtree split --prefix dist master`:gh-pages --force"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,13 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "husky": "^7.0.2"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run prod"
-    }
   }
 }
