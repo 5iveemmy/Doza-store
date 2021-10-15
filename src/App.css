@@ -27,10 +27,19 @@ body {
 }
 
 /* FOr media queries*/
+/* @media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .jus {
+    bottom: 8rem;
+  }
+} */
 @media screen and (max-width: 992px) {
   .slider {
     height: 100vh;
   }
+
+  /* .jus {
+    bottom: 20rem !important;
+  } */
 
   .small-nav {
     display: none;
@@ -57,7 +66,8 @@ body {
   }
 
   .big-links:hover {
-    color: white;
+    color: #0c1a74;
+    transition: ease-in-out 0.5s;
   }
 
   .menu-icon {
@@ -89,7 +99,7 @@ body {
 
   ul.pages-links.active {
     display: block;
-    top: 59px;
+    top: 52px;
     z-index: 1000;
     transform: scaleY(1);
   }
@@ -103,7 +113,7 @@ body {
     font-size: 23px;
   }
   .jus-btn {
-    padding: 16px 30px;
+    padding: 15px 30px !important;
     font-size: 12px;
   }
   .left-arrow,
@@ -114,6 +124,58 @@ body {
   .hlep,
   .touch,
   .newsletter {
-    flex: 0 1 45%;
+    flex: 0 1 45% !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .btn {
+    padding: 9px;
+    font-size: 14px;
+  }
+  .filter,
+  .second-search {
+    padding: 7px 15px !important;
+    font-size: 12px !important;
+  }
+  .searcht {
+    font-size: 12px !important;
+  }
+  .spring {
+    margin-bottom: 4rem;
+  }
+  .shopping-icons {
+    width: 30%;
+  }
+  .section {
+    padding: 0px 16px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .jus {
+    left: 6rem !important;
+    bottom: 11rem !important;
+  }
+  .jus-btn {
+    padding: 12px 20px !important;
+    font-size: 10px;
+  }
+  .product h1 {
+    font-size: 25px;
+    padding-left: 20px !important;
+  }
+  .section {
+    padding: 0px 10px !important;
+  }
+  .btn {
+    padding: 7px !important;
+    font-size: 13px !important;
+  }
+  .categories,
+  .hlep,
+  .touch,
+  .newsletter {
+    flex: 0 1 93% !important;
   }
 }
