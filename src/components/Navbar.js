@@ -73,7 +73,7 @@ function Navbar() {
                 </ul>
               </li>
               <li className="jux">
-                <Link className="big-links" to="/">
+                <Link className="big-links" to="/prodpage">
                   Shop
                 </Link>
               </li>

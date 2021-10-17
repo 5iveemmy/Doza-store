@@ -1,10 +1,9 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
-import Boxes from "./Boxes/Boxes";
-import ImageSlider from "./components/ImageSlider";
-import { SliderData } from "./components/SliderData";
+import Home from "./pages/Home";
+import Prodpage from "./pages/Prodpage";
 import Footer from "./components/Footer";
 
 function App() {
@@ -12,8 +11,10 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <ImageSlider slides={SliderData} />
-        <Boxes />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/prodpage" exact component={Prodpage} />
+        </Switch>
         <Footer />
       </Router>
     </>

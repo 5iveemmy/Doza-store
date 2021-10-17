@@ -77,10 +77,6 @@ body {
     cursor: pointer;
     writing-mode: vertical-rl;
   }
-  /* 
-  .big-drop:hover .home-drop {
-    display: none;
-  } */
 
   ul.pages-links {
     flex-direction: column;
@@ -103,8 +99,37 @@ body {
     z-index: 1000;
     transform: scaleY(1);
   }
+  .spring {
+    width: 38rem !important;
+    margin-bottom: 5rem;
+  }
   .all {
-    width: auto !important;
+    width: 90% !important;
+    padding-bottom: 20px;
+  }
+  .section {
+    flex-wrap: wrap !important;
+  }
+  .filter,
+  .second-search {
+    margin-left: 0px !important;
+    margin-right: 14px;
+  }
+  .picture {
+    padding: 20px 6px !important;
+    width: 19rem !important;
+  }
+  .shop {
+    top: 20rem !important;
+    bottom: 50px !important;
+  }
+  .sort,
+  .money,
+  .color {
+    flex: 0 1 45% !important;
+  }
+  .tags {
+    flex: 0 1 46% !important;
   }
 }
 @media screen and (max-width: 768px) {
@@ -133,22 +158,25 @@ body {
     padding: 9px;
     font-size: 14px;
   }
-  .filter,
-  .second-search {
-    padding: 7px 15px !important;
-    font-size: 12px !important;
-  }
-  .searcht {
-    font-size: 12px !important;
-  }
   .spring {
     margin-bottom: 4rem;
   }
   .shopping-icons {
     width: 30%;
   }
-  .section {
-    padding: 0px 16px;
+  .picture {
+    width: 29rem !important;
+  }
+
+  .quick {
+    top: 30rem !important;
+    left: 10.5rem !important;
+  }
+  .sort,
+  .money,
+  .color,
+  .tags {
+    flex: 0 1 100% !important;
   }
 }
 
@@ -161,13 +189,7 @@ body {
     padding: 12px 20px !important;
     font-size: 10px;
   }
-  .product h1 {
-    font-size: 25px;
-    padding-left: 20px !important;
-  }
-  .section {
-    padding: 0px 10px !important;
-  }
+
   .btn {
     padding: 7px !important;
     font-size: 13px !important;
