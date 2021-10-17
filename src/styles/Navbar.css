@@ -55,6 +55,7 @@ nav.big-nav {
   width: 100%;
   z-index: 1100;
 }
+
 .big-nav.active {
   background: #ffffff;
   transition: 0.4s;
@@ -116,11 +117,15 @@ a.icons {
   color: rgb(133, 133, 133);
   letter-spacing: 1px;
 }
+
 .big-links:hover {
   color: var(--btn-color);
 }
 
-.big-links:active,
+/* .jux:active {
+  background-color: var(--btn-color);
+} */
+
 .home-drop .drop:hover {
   color: var(--btn-color);
 }

@@ -79,7 +79,7 @@ function Navbar() {
               </li>
 
               <li className="jux">
-                <Link className="big-links" to="/">
+                <Link className="big-links" to="/cart">
                   Features
                 </Link>
               </li>

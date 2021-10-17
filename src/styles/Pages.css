@@ -1,0 +1,22 @@
+/*for cart */
+.cart {
+  padding: 6rem 3.5rem;
+}
+.home {
+  text-decoration: none;
+  color: #555;
+  font-size: 13px;
+}
+
+.home:hover {
+  color: var(--btn-color);
+}
+
+.home-arrow {
+  vertical-align: middle;
+}
+
+.shopping-cart {
+  font-size: 13px;
+  color: rgb(163, 163, 163);
+}

@@ -300,6 +300,7 @@
   padding: 12px 25px;
   border: none;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .quick-btn:hover {
@@ -344,4 +345,5 @@
   background-color: black;
   color: white;
   transition: ease-in-out 0.5s;
+  cursor: pointer;
 }

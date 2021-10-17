@@ -5,7 +5,7 @@ function SmallBox({ src, title, season, shop }) {
   return (
     <div className="spring">
       <img src={src} alt="Just-img" />
-      <Link className="spring-link">
+      <Link className="spring-link" to="/prodpage">
         <div className="spring-text">
           <span className="title">{title}</span>
           <span className="season">{season}</span>
