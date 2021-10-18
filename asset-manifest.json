@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Doza-store/static/css/main.979a8d3e.chunk.css",
+    "main.js": "/Doza-store/static/js/main.6e25b04c.chunk.js",
+    "main.js.map": "/Doza-store/static/js/main.6e25b04c.chunk.js.map",
+    "runtime-main.js": "/Doza-store/static/js/runtime-main.40be9345.js",
+    "runtime-main.js.map": "/Doza-store/static/js/runtime-main.40be9345.js.map",
+    "static/js/2.e17941c0.chunk.js": "/Doza-store/static/js/2.e17941c0.chunk.js",
+    "static/js/2.e17941c0.chunk.js.map": "/Doza-store/static/js/2.e17941c0.chunk.js.map",
+    "index.html": "/Doza-store/index.html",
+    "static/css/main.979a8d3e.chunk.css.map": "/Doza-store/static/css/main.979a8d3e.chunk.css.map",
+    "static/js/2.e17941c0.chunk.js.LICENSE.txt": "/Doza-store/static/js/2.e17941c0.chunk.js.LICENSE.txt",
+    "static/media/banner-01.8f255cb0.jpg": "/Doza-store/static/media/banner-01.8f255cb0.jpg",
+    "static/media/banner-02.33ebbef2.jpg": "/Doza-store/static/media/banner-02.33ebbef2.jpg",
+    "static/media/banner-03.253c2f0b.jpg": "/Doza-store/static/media/banner-03.253c2f0b.jpg",
+    "static/media/product-01.32b9f11d.jpg": "/Doza-store/static/media/product-01.32b9f11d.jpg",
+    "static/media/product-02.f09e4dbf.jpg": "/Doza-store/static/media/product-02.f09e4dbf.jpg",
+    "static/media/product-03.e659cc27.jpg": "/Doza-store/static/media/product-03.e659cc27.jpg",
+    "static/media/product-04.33e02f99.jpg": "/Doza-store/static/media/product-04.33e02f99.jpg",
+    "static/media/product-05.c0b8e1b5.jpg": "/Doza-store/static/media/product-05.c0b8e1b5.jpg",
+    "static/media/product-06.4583a792.jpg": "/Doza-store/static/media/product-06.4583a792.jpg",
+    "static/media/product-07.1a77b466.jpg": "/Doza-store/static/media/product-07.1a77b466.jpg",
+    "static/media/product-08.19038984.jpg": "/Doza-store/static/media/product-08.19038984.jpg",
+    "static/media/product-09.6c503d76.jpg": "/Doza-store/static/media/product-09.6c503d76.jpg",
+    "static/media/product-10.95697b32.jpg": "/Doza-store/static/media/product-10.95697b32.jpg",
+    "static/media/product-11.8938e1ce.jpg": "/Doza-store/static/media/product-11.8938e1ce.jpg",
+    "static/media/product-12.c6fc4dd1.jpg": "/Doza-store/static/media/product-12.c6fc4dd1.jpg",
+    "static/media/product-13.4a621b9d.jpg": "/Doza-store/static/media/product-13.4a621b9d.jpg",
+    "static/media/product-14.8f867ca1.jpg": "/Doza-store/static/media/product-14.8f867ca1.jpg",
+    "static/media/product-15.bc0ca8c6.jpg": "/Doza-store/static/media/product-15.bc0ca8c6.jpg",
+    "static/media/product-16.d46137d4.jpg": "/Doza-store/static/media/product-16.d46137d4.jpg",
+    "static/media/slide-01.b399dbde.jpg": "/Doza-store/static/media/slide-01.b399dbde.jpg",
+    "static/media/slide-02.42a378ab.jpg": "/Doza-store/static/media/slide-02.42a378ab.jpg",
+    "static/media/slide-03.522dd034.jpg": "/Doza-store/static/media/slide-03.522dd034.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40be9345.js",
+    "static/js/2.e17941c0.chunk.js",
+    "static/css/main.979a8d3e.chunk.css",
+    "static/js/main.6e25b04c.chunk.js"
+  ]
+}
