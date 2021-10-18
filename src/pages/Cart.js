@@ -17,15 +17,18 @@ function Cart() {
           <div className="form-container">
             <div className="for-table">
               <div className="left-table">
-                <div className="table-wrap">
-                  <table>
+                <div className="left-table-wrap">
+                  <table className="first-table">
                     <tbody>
                       <tr className="table-head">
                         <th className="column-1">Prduct</th>
-                        {/* <th className="column-1"></th> */}
-                        <th className="column-1">Prduct</th>
-                        <th className="column-1">Prduct</th>
-                        <th className="column-1">Prduct</th>
+                        <th className="column-2"></th>
+                        <th className="column-3">Prduct</th>
+                        <th className="column-4">Prduct</th>
+                        <th className="column-5">Prduct</th>
+                      </tr>
+                      <tr className="table-row">
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
