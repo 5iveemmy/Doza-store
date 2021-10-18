@@ -13,9 +13,9 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/prodpage" exact component={Prodpage} />
-          <Route path="/cart" exact component={Cart} />
+          <Route path="/" component={Home} />
+          <Route path="/prodpage" component={Prodpage} />
+          <Route path="/cart" component={Cart} />
         </Switch>
         <Footer />
       </Router>
