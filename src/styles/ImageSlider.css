@@ -4,17 +4,14 @@
 
 .slider {
   position: relative;
-  /* height: 120vh; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* .slide.active {
-  z-index: 998;
-  opacity: 0;
-  transition: opacity 1000ms ease 0s;
-} */
+.slide.active {
+  position: relative;
+}
 
 .image {
   width: 100%;
@@ -59,19 +56,17 @@
   position: absolute;
   left: 7.5rem;
   color: #000;
-  bottom: 9rem;
+  bottom: 8.7rem;
   color: rgb(61, 61, 61);
 }
 
 .jus h1 {
-  /* font-size: 28px; */
   font-size: clamp(0.5rem, 4vw, 3rem);
   font-weight: 100;
   line-height: 6rem;
 }
 
 .jus h2 {
-  /* font-size: 66px; */
   font-size: clamp(1rem, 5vw, 4rem);
   padding-bottom: 30px;
 }
