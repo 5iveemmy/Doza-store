@@ -84,7 +84,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className="jux">
-                <Link className="big-links" to="/">
+                <Link className="big-links" to="/blog">
                   Blog
                 </Link>
               </li>

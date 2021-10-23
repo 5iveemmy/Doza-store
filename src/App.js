@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Prodpage from "./pages/Prodpage";
 import Footer from "./components/Footer";
 import Cart from "./pages/Cart";
+import Blog from "./pages/Blog";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/prodpage" exact component={Prodpage} />
           <Route path="/cart" exact component={Cart} />
+          <Route path="/blog" exact component={Blog} />
         </Switch>
         <Footer />
       </Router>
