@@ -53,3 +53,25 @@ form {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+/* Blog */
+
+.blog {
+  padding-top: 5.5rem;
+}
+
+.blog-image {
+  position: relative;
+}
+
+.blog-image img {
+  width: 100%;
+}
+
+.blog-text {
+  color: white;
+  position: absolute;
+  top: 34%;
+  left: 46%;
+  font-size: 50px;
+}
