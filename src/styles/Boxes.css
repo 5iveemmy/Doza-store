@@ -24,9 +24,6 @@
 }
 
 .spring-link {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
   position: absolute;
   left: 0px;
   top: 0px;
@@ -98,13 +95,11 @@
 
 .first-box {
   padding: 10px 26px;
-  /* transform: scaleY(0); */
   visibility: visible;
 }
+
 .display {
-  /* display: block; */
   padding: 10px 26px;
-  /* transform: scaleY(1); */
   display: none;
 }
 
