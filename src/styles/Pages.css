@@ -79,3 +79,24 @@ form {
 .blog-sect {
   padding: 20px 40px;
 }
+
+.winter {
+  /* width: 40rem; */
+  width: 60vw;
+}
+
+.winter-image {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-one-image {
+  width: 100%;
+  vertical-align: middle;
+  transition: ease-in-out 0.5s;
+}
+
+.winter-image:hover .blog-one-image {
+  transform: scale(1.1);
+}

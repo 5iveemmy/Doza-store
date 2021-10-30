@@ -1,7 +1,7 @@
 import React from "react";
 import blog from "../images/bg-02.jpg";
 import "../styles/Pages.css";
-import blogOne from "../images/blog-01.jpg";
+import blogOne from "../images/blog-04.jpg";
 
 function Blog() {
   return (
@@ -18,7 +18,7 @@ function Blog() {
             <div className="season-wrap">
               <div className="winter">
                 <div className="winter-image">
-                  <img src={blogOne} alt="blog01" />
+                  <img src={blogOne} alt="blog01" className="blog-one-image" />
                 </div>
               </div>
             </div>
