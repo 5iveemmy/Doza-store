@@ -77,12 +77,13 @@ form {
 }
 
 .blog-sect {
-  padding: 20px 40px;
+  padding: 4rem 5.5rem;
 }
 
 .winter {
   /* width: 40rem; */
   width: 60vw;
+  position: relative;
 }
 
 .winter-image {
@@ -99,4 +100,28 @@ form {
 
 .winter-image:hover .blog-one-image {
   transform: scale(1.1);
+}
+
+.season-date {
+  top: 1rem;
+  position: absolute;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255, 75%);
+  padding: 7px 12px;
+  color: black;
+}
+
+.num-span {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 800;
+}
+
+.month-span {
+  color: #666;
+}
+.winter-text {
+  padding-top: 2rem;
 }
